@@ -4,7 +4,7 @@ const CardFeatures = () => {
   const router = useRouter();
 
   return (
-    <div className="relative mt-10 md:mt-24 w-full text-center">
+    <div className="relative mt-10 w-full text-center md:mt-24">
       {/* Background */}
       <header className="pt-6 text-lg font-semibold text-white">
         Semua Untuk Satu Teknologi Koperasi

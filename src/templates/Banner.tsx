@@ -5,7 +5,7 @@ import { CTABanner } from "../cta/CTABanner";
 import { Section } from "../layout/Section";
 
 const Banner = () => (
-  <div className="relative top-{64rem}">
+  <div className="top-{64rem} relative">
     <Section>
       <CTABanner
         title="Saatnya bergabung dengan Ratusan koperasi lain"

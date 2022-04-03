@@ -1,15 +1,15 @@
-import { Meta } from '../layout/Meta';
-import { AppConfig } from '../utils/AppConfig';
-import { Banner } from './Banner';
+import { Meta } from "../layout/Meta";
+import { AppConfig } from "../utils/AppConfig";
+import { Banner } from "./Banner";
 // import { Footer } from './Footer';
-import { Header } from './Header';
-import { Opening } from './Opening';
-import {Ekosistem} from './Ekosistem';
-import { CardFeatures } from './CardFeatures';
-import { ProductOverview } from './ProductOverview';
+import { Header } from "./Header";
+import { Opening } from "./Opening";
+import { Ekosistem } from "./Ekosistem";
+import { CardFeatures } from "./CardFeatures";
+import { ProductOverview } from "./ProductOverview";
 
 const Base = () => (
-  <div className="text-gray-600 font-['Poppins']">
+  <div className="font-['Poppins'] text-gray-600">
     <Meta title={AppConfig.title} description={AppConfig.description} />
     <Header />
     {/* Page 1 */}

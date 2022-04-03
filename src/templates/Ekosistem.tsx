@@ -48,7 +48,7 @@ const Ekosistem = () => {
           alt="Ekosistem-Illustration"
           className="absolute top-0 w-11/12"
         />
-        <div className="flex mx-auto items-center w-8/12 pt-[60vw] text-center text-[8px] font-light md:w-2/3 md:pt-[57vw] md:text-[10px] md:font-medium">
+        <div className="mx-auto flex w-8/12 items-center pt-[60vw] text-center text-[8px] font-light md:w-2/3 md:pt-[57vw] md:text-[10px] md:font-medium">
           <span>~</span>
           <p className="tracking-widest">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut
