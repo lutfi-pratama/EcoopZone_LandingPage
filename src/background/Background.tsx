@@ -10,9 +10,8 @@ const Background = (props: IBackgroundProps) => {
     const router = useRouter();
 
     return (
-
         <div className={props.color}>
-            {props.children}
+          {props.children}
             <style jsx>
                 {`
                   background-image: url(${router.basePath}assets/images/bg_intro.png);
@@ -27,7 +26,6 @@ const Background = (props: IBackgroundProps) => {
                   }
                 `}
             </style>
-
         </div>
     );
 }

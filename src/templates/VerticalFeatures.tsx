@@ -4,7 +4,7 @@ import { Section } from '../layout/Section';
 const VerticalFeatures = () => (
   <Section
     title="Fitur Aplikasi Ecoopzone"
-    description="Apapun bisnis Anda, Ecoopzone adalah solusi untuk mempercepat pertumbuhan bisnis jangka panjang!."
+    description="Apapun bisnis Anda, Ecoopzone adalah solusi untuk mempercepat pertumbuhan bisnis jangka panjang!, Ecoopzone solusi bisnis koperasi."
   >
     <VerticalFeatureRow
       title="Data Master"

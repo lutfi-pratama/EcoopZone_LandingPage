@@ -41,6 +41,31 @@ module.exports = {
       lineHeight: {
         hero: '4.5rem',
       },
+      height: {
+        '9': '3.25rem',
+      },
+      animation: {
+        'bounce-opening': 'bounce_opening 1.3s infinite',
+        slide_line: 'slide_line 7s infinite',
+        slide_line_2: 'slide_line2 7s infinite'
+      },
+      keyframes: {
+        bounce_opening: {
+          '0%, 100%': { transform: 'translateY(-70%)', animationTimingFunction: 'cubic-bezier(0.8, 0, 1, 1)' },
+          '50%': { transform: 'translateY(0)', animationTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)' },
+        },
+        slide_line: {
+          '0%, 100%': { transform: 'translateX(-50%)' },
+          '50%': { transform: 'translateX(0)'},
+        },
+        slide_line2: {
+          '0%, 100%': { transform: 'translateX(20%)' },
+          '50%': { transform: 'translateX(0)'},
+        }
+      },
+      backgroundImage: {
+        features: "url('/assets/images/bg-features.png')",
+      }
     },
   },
   variants: {},
