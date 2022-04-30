@@ -20,13 +20,13 @@ const Ekosistem = () => {
     <div className="relative mt-4 w-full text-black">
       {/* Header */}
       <div className="absolute right-0 top-4 mr-8 w-2/5">
-        <header className="text-right font-bold md:pr-8 md:text-2xl">
+        <header className="text-right font-bold md:pr-8 md:text-2xl xl:text-4xl">
           Ekosistem
         </header>
         <img
           src={`${router.basePath}assets/images/line-ekosistem.svg`}
           alt="ekosistem-line"
-          className={"float-right mt-1 w-10 animate-slide_line md:w-16"}
+          className={"float-right mt-1 w-10 animate-slide_line md:w-16 xl:w-24"}
         />
       </div>
 
@@ -48,9 +48,9 @@ const Ekosistem = () => {
           alt="Ekosistem-Illustration"
           className="absolute top-0 w-11/12"
         />
-        <div className="mx-auto flex w-8/12 items-center pt-[60vw] text-center text-[8px] font-light md:w-2/3 md:pt-[57vw] md:text-[10px] md:font-medium">
+        <div className="mx-auto flex w-8/12 items-center pt-[60vw] text-center text-[8px] font-light md:w-2/3 md:pt-[57vw] md:text-[10px] md:font-medium lg:w-9/12 lg:text-[12px] lg:font-light xl:text-[16px]">
           <span>~</span>
-          <p className="tracking-widest">
+          <p className="mx-4 w-full tracking-widest lg:mx-6 xl:mx-12">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut
             egestas eu, commodo nascetur. In nam nunc tortor.
           </p>
