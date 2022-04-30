@@ -37,9 +37,9 @@ const Header = () => {
 
   return (
     <nav
-      className={`fixed z-50 mx-auto flex w-full items-center justify-between bg-white px-4 py-2 opacity-100 drop-shadow-md transition-all delay-100 duration-200 ease-in md:px-6 md:pr-[7rem] lg:px-12 lg:pr-32 ${
+      className={`fixed z-50 mx-auto flex w-full items-center justify-between px-4 py-2 opacity-100 drop-shadow-md transition-all delay-100 duration-200 ease-in md:px-6 md:pr-[7rem] lg:px-12 lg:pr-32 ${
         scrollY ? "top-0" : "top-[-5rem]"
-      } ${highestScrollY ? " bg-transparent drop-shadow-none" : ""} `}
+      } ${highestScrollY ? " bg-transparent drop-shadow-none" : "bg-white"} `}
     >
       <Logo highestScroll={highestScrollY} />
 
