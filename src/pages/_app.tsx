@@ -1,6 +1,8 @@
-import { AppProps } from 'next/app';
+import { AppProps } from "next/app";
 
-import '../styles/global.css';
+import "swiper/css";
+import "swiper/css/navigation";
+import "../styles/global.css";
 
 const MyApp = ({ Component, pageProps }: AppProps) => (
   <Component {...pageProps} />
